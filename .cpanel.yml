@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    -export DEPLOYPATH-/home/instantd/repositories/keeper-app
+    -/bin/cp -a * $DEPLOYPATH
